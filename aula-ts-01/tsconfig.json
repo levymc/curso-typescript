@@ -4,9 +4,9 @@
     "esModuleInterop": true,
     "module": "CommonJS",
     "moduleResolution": "Node",
-    "baseUrl": "src",
+    "baseUrl": "/",
   },
-  "ts-node": {
+  "ts-node-esm": {
     "esm": true
-  },
+  }
 }
