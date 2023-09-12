@@ -19,8 +19,8 @@ function showResult(result: number) {
 }
 
 (() => {
-    const num1: string | null = "1a"//prompt("First Number");
-    const num2: string | null = "2"//prompt("Second Number");
+    const num1: string | null = prompt("First Number");
+    const num2: string | null = prompt("Second Number");
     let parsedNum1: number, parsedNum2: number;
     try{
         parsedNum1 = parseInt(num1)
