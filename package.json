@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev1": "nodemon ./aula-ts-01/ex01.ts",
+    "dev2": "nodemon ./aula-ts-02/ex02.ts",
+    "dev3": "nodemon ./aula-ts-03/ex03.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
